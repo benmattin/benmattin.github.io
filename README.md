@@ -1,20 +1,20 @@
-# Benjamin Mattin Portfolio
+# Portfolio de Benjamin Mattin
 
-A lightweight, responsive, single-file portfolio. It uses semantic HTML, CSS custom properties in `:root`, no framework, a mobile navigation, a light/dark theme switch, and reduced-motion-aware reveal animations.
+Portfolio ligero, adaptable y contenido en un único archivo HTML. Incluye variables CSS en `:root`, navegación móvil, selector de tema claro/oscuro y animaciones que respetan la preferencia de movimiento reducido.
 
-## Before publishing
+## Antes de publicar
 
-1. Search `index.html` for `YOUR-USERNAME` and replace both example GitHub project URLs with the real repositories or project write-ups. Do not publish the example links unchanged.
-2. When the site is live, add the real site address as a canonical URL and `og:url` in the `<head>`. Update the structured data with the website URL and relevant public profile links if you have them.
-3. Check that the project descriptions match what you are allowed to share publicly. The DAM project is labelled as in development.
-4. Test the page on mobile and desktop, then deploy the `index.html` file to GitHub Pages, Cloudflare Pages or Netlify.
+1. Busca `YOUR-USERNAME` en `index.html` y sustituye las dos URL de ejemplo de GitHub por los enlaces reales de tus proyectos. No publiques las URL de ejemplo.
+2. Cuando la web esté publicada, añade la URL definitiva como URL canónica y `og:url` en el `<head>`. Actualiza también los datos estructurados con la URL del sitio y los perfiles públicos que quieras mostrar.
+3. Comprueba que las descripciones de los proyectos solo incluyan información que puedas compartir públicamente. El proyecto final de DAM aparece como «En desarrollo».
+4. Prueba la web en móvil y escritorio y publícala en GitHub Pages, Cloudflare Pages o Netlify.
 
-## SEO checklist
+## SEO
 
-- The page has a descriptive title, unique meta description, semantic headings, accessible navigation and Person/ProfilePage JSON-LD.
-- Once deployed, verify the real domain in Google Search Console and request indexing. Add a sitemap if you later create multiple pages.
-- SEO can help search engines understand the page; it cannot guarantee first-page or first-place rankings. A distinctive, consistent public profile and useful project pages will help build relevance over time.
+- Incluye título, descripción, encabezados semánticos, navegación accesible y datos estructurados `Person`/`ProfilePage` en español.
+- Cuando publiques la web, verifica el dominio en Google Search Console y solicita la indexación. Si más adelante creas varias páginas, considera añadir un sitemap.
+- El SEO ayuda a los buscadores a comprender la página, pero no garantiza aparecer en primera posición.
 
-## Edit
+## Edición
 
-Everything is in `index.html`. Edit the theme variables at the top of the `<style>` block inside `:root`, and update text, skills and contact details directly in the markup.
+Todo está en `index.html`. Cambia los colores en las variables de `:root` al principio del bloque `<style>` y edita los textos, las tecnologías y los datos de contacto directamente en el HTML.
